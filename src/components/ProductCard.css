@@ -1,0 +1,29 @@
+.product-card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card__image {
+  flex: 1 0;
+  border-radius: var(--radius-md);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+.product-card__details {
+  flex: 0 0;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.product-card__amount {
+  color: var(--gray-darker);
+  font-weight: 900;
+  font-size: var(--font-lg);
+}

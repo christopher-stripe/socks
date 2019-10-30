@@ -1,0 +1,40 @@
+.button {
+  height: var(--form-height-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--form-padding-md);
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--gray-lightest);
+  font-weight: 700;
+  font-size: var(--font-sm);
+  text-shadow: 0.5px 0.5px 0px var(--gray);
+  box-shadow: 2px 2px 0px 1px var(--gray-lighter);
+  transition: 0.2s;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:disabled,
+.button--loading {
+  cursor: initial;
+  color: var(--gray-light);
+  text-shadow: none;
+}
+
+.button--primary {
+  background: var(--blue);
+}
+
+.button--primary:hover {
+  background: var(--blue-light);
+}
+
+.button--primary:disabled,
+.button--primary:disabled:hover,
+.button--primary.button--loading {
+  background: var(--blue-lightest);
+}

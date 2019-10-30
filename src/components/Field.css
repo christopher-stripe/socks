@@ -1,0 +1,20 @@
+.field .input {
+  border: 3px solid var(--gray-lightest);
+}
+
+.field--error .input {
+  border: 3px solid var(--red);
+  color: var(--red-dark);
+}
+
+.field--error .field__label {
+  color: var(--red-dark);
+}
+
+.field__label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: var(--font-sm);
+  color: var(--gray-darker);
+}

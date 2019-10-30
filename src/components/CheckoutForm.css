@@ -1,0 +1,71 @@
+.checkout-form {
+  --field-margin-bottom: 20px;
+}
+
+.checkout-form .field {
+  margin-bottom: var(--field-margin-bottom);
+}
+
+.checkout-form__city-state-zip {
+  display: flex;
+}
+
+.checkout-form__city-state-zip .field {
+  margin-left: 15px;
+}
+
+.checkout-form__city-state-zip .field:first-child {
+  margin-left: 0;
+}
+
+.checkout-form__city {
+  flex: 1 1 60%;
+}
+
+.checkout-form__state {
+  flex: 1 0 15%;
+}
+
+.checkout-form__zip {
+  flex: 1 0 25%;
+}
+
+.checkout-form__card {
+  border-radius: var(--radius-sm);
+  background-color: var(--gray-lightest);
+  border: 3px solid var(--gray-lightest);
+  height: var(--form-height-md);
+  padding: var(--form-padding-md);
+  box-shadow: 2px 2px 0px 1px var(--gray-lighter);
+}
+
+.field--error .checkout-form__card {
+  border: 3px solid var(--red);
+}
+
+.checkout-form__errors {
+  margin: 30px 0;
+  padding: 10px 20px;
+  list-style: none;
+  background: var(--red-light);
+  border-radius: var(--radius-sm);
+  box-shadow: 2px 2px 0px 1px var(--red);
+  font-weight: 500;
+}
+
+.checkout-form__error {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-weight: initial;
+}
+
+.checkout-form__error::before {
+  content: "👉";
+  padding-right: 5px;
+}
+
+.checkout-form__submit {
+  width: 100%;
+  margin-top: 30px;
+}

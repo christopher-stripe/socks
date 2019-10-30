@@ -1,0 +1,15 @@
+.input {
+  border: none;
+  border-radius: var(--radius-sm);
+  background-color: var(--gray-lightest);
+  height: var(--form-height-md);
+  padding: var(--form-padding-md);
+  box-shadow: 2px 2px 0px 1px var(--gray-lighter);
+  font-size: var(--font-sm);
+  font-weight: 500;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: var(--gray-light);
+}

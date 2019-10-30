@@ -1,0 +1,6 @@
+.layout {
+  background: var(--green-light);
+  font-family: system-ui, sans-serif;
+  height: 100%;
+  color: var(--gray-darkest);
+}
